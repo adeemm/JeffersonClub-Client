@@ -1,0 +1,93 @@
+page-login {
+
+  .login {
+
+    .top-header {
+      height: 200px;
+      width: 100%;
+      background: linear-gradient(rgba(23, 22, 22, 0.4), rgba(23, 22, 22, 0.4)), url('../assets/img/login-header.jpg');
+      background-size: cover;
+      position: relative;
+
+      .header-menu {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+
+        .button {
+          margin-bottom: 0;
+        }
+
+        #active-icon {
+          position: absolute;
+          bottom: -1px;
+          right: 24%;
+          transition: all 0.1s ease-in;
+
+          &.left {
+            right: 73% !important;
+          }
+        }
+      }
+    }
+
+    h1 {
+      margin-top: 80px;
+    }
+
+    ion-input,
+    ion-input[type="password"],
+    ion-input[type="text"] {
+      background: transparent;
+      color: color($colors, dark);
+      font-size: 16px;
+      padding-right: 15px !important;
+
+      &::-webkit-input-placeholder {
+        color: color($colors, grey);
+        font-size: 16px;
+      }
+    }
+
+    ion-list {
+      margin-top: 20px;
+      position: relative;
+
+      .eye-icon {
+        z-index: 9999;
+      }
+
+      .passwordShown {
+        opacity: 0.25;
+      }
+    }
+
+    ion-item {
+      border: none;
+      background-color: transparent;
+      color: color($colors, grey);
+    }
+
+    .item-block:first-child {
+      border: none;
+    }
+  }
+
+  .footer-content {
+      position: fixed;
+      bottom: 30px;
+      width: 100%;
+  }
+
+  .btn-holder {
+      width: 200px;
+      text-align: center;
+      left: 50%;
+      transform: perspective(1px) translateX(-50%);
+      .button-block {
+          &:first-child {
+              margin-bottom: 15px;
+          }
+      }
+  }
+}

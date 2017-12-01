@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title>Service Timeline</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+<div *ngIf="noService">
+  <div class="emptyPageText">
+    <p class="mainHead">No service yet!</p> <br>
+    <p class="subtext">Head over to the "Service Log" page<br> and start adding in your hours.</p>
+  </div>
+</div>
+
+<div *ngIf="!noService">
+  <section id="cd-timeline" class="cd-container">
+    <div *ngFor="let event of timeline">
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-icon">
+        </div>
+        <div class="cd-timeline-content" padding>
+          <h5 class="marginBottom0 marginTop0" style="font-family:Raleway"><strong>{{ event.title }}</strong></h5>
+          <p class="marginTop5 cd-author" style="font-size: 11px">{{ event.hours }} hr. on {{ event.date | date: "MMM dd, yyyy" }}</p>
+          <p class="timelineText" style="font-size: 13px; margin-bottom: -4px">{{ event.desc }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Service Log</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list no-lines>
+    <form [formGroup]="logForm">
+
+        <br>
+
+        <ion-item *ngIf="!logForm.controls.title.valid  && (logForm.controls.title.dirty || submitAttempt)">
+                  <p class="invalid">Please enter a shorter title.</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-input formControlName="title" type="text" placeholder="Person / Organization"></ion-input>
+        </ion-item>
+
+        <ion-item *ngIf="!logForm.controls.desc.valid  && (logForm.controls.desc.dirty || submitAttempt)">
+                  <p class="invalid">Please enter a shorter description.</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-input formControlName="desc" type="text" placeholder="Description of Service"></ion-input>
+        </ion-item>
+
+        <ion-item *ngIf="!logForm.controls.date.valid  && (logForm.controls.date.dirty || submitAttempt)">
+                  <p class="invalid">Please enter a valid date.</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-datetime formControlName="date" displayFormat="DDDD MMM D, YYYY" placeholder="Date"></ion-datetime>
+        </ion-item>
+
+        <ion-item *ngIf="!logForm.controls.hours.valid  && (logForm.controls.hours.dirty || submitAttempt)">
+                  <p class="invalid">Please enter a valid amount of hours.</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-input formControlName="hours" type="number" placeholder="Hours"></ion-input>
+       </ion-item>
+
+    </form>
+  </ion-list>
+
+  <button ion-button round block color="primary" (click)="logHours()">Log Hours</button>
+</ion-content>

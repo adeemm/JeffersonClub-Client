@@ -1,0 +1,45 @@
+page-events {
+  td.monthview-current.monthview-selected {
+    background-color: map-get($colors, primary);
+  }
+
+  td.monthview-selected.monthview-selected {
+    background-color: map-get($colors, primary);
+  }
+
+  td.monthview-primary-with-event.monthview-selected {
+    color: white !important;
+    background-color: map-get($colors, primary) !important;
+    position: relative;
+  }
+
+  td.monthview-primary-with-event {
+    color: black !important;
+    background-color: white !important;
+    position: relative;
+  }
+
+  td.monthview-primary-with-event:after {
+    content: '•' !important;
+  	color: map-get($colors, primary) !important;
+  	font-size: 1.4em !important;
+  	position: absolute !important;
+  	right: 2px !important;
+  	top: -4px !important;
+  }
+
+  td.monthview-primary-with-event.monthview-selected:after {
+    content: '•' !important;
+  	color: white !important;
+  	font-size: 1.4em !important;
+  	position: absolute !important;
+  	right: 2px !important;
+  	top: -4px !important;
+  }
+
+  #foot {
+    .toolbar-background {
+      background-color: transparent;
+    }
+  }
+}

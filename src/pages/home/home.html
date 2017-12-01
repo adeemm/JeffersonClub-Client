@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Announcements</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!--<button ion-button menuToggle>Open The Side Menu</button>-->
+
+  <ion-card *ngFor="let thing of announcements">
+    <!-- <div class="thumbnail">
+      <img src="../../assets/img/localimgname.jpg">
+    </div> -->
+
+    <ion-card-content>
+      <ion-card-title>
+        {{ thing.title }}
+      </ion-card-title>
+      <p>
+        {{ thing.desc }}
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

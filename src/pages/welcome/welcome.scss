@@ -1,0 +1,54 @@
+page-welcome {
+
+  @import url('https://fonts.googleapis.com/css?family=Basic');
+
+  ion-content {
+    background-color: #53BBFF !important;
+    font-family: 'Basic';
+  }
+
+  .diag {
+    color: map-get($colors, primary);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    height: 66%;
+  }
+
+  h2 {
+    color: white;
+    margin-top: 60% !important;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  p {
+    color: white;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .swiper-pagination {
+    bottom: 17% !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: white;
+  }
+
+  #skip {
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    height: 10%;
+    width: 100%;
+    background:none !important;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 16px;
+  }
+
+}
