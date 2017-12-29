@@ -19,3 +19,12 @@ I created this app for an extracurricular group at my school, so that they can e
   - AngularJS / TypeScript
   - Adobe Cordova (provides native web wrappers for specific platforms)
 * CouchDB Database
+
+## Screenshots
+<p align="center">
+  <img src="/screenshots/welcome.png" width="350"/> &nbsp; &nbsp; &nbsp;
+  <img src="/screenshots/menu.png" width="350"/>
+  <br> <br>
+  <img src="/screenshots/calendar.png" width="350"/> &nbsp; &nbsp; &nbsp;
+  <img src="/screenshots/timeline.png" width="350"/>
+</p>
