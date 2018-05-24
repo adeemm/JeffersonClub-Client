@@ -63,11 +63,11 @@ export class LoginPage {
           });
         }, (err) => {
           this.loader.dismiss();
-          
+
            if(err.status != 0)
             this.presentAlert("Error", JSON.parse(err._body).message, "OK");
           else
-            this.presentAlert("Connection Error", "Please check your internet conection", "OK");
+            this.presentAlert("Connection Error", "Please check your connection!", "OK");
         });
     });
   }
@@ -93,26 +93,27 @@ export class LoginPage {
       this.http.post(this.service.baseUrl + this.service.webPort + '/auth/register', JSON.stringify(user), { headers: headers })
         .subscribe(res => {
           this.service.init(res.json());
-
-          let head2 = new Headers();
-          head2.append("Content-Type", "application/javascript");
-          let designDoc = "{\r\n  \"_id\": \"_design\/hours\",\r\n  \"language\": \"javascript\",\r\n  \"views\": {\r\n    \"date\": {\r\n      \"map\": \"function(doc) { emit(doc.date, { \'title\': doc.title, \'desc\': doc.desc, \'hours\': doc.hours, \'date\': doc.date }); }\"\r\n    }\r\n  }\r\n}";
-
-          this.http.put(res.json().userDBs.student + "/_design/hours", designDoc, head2).subscribe(res => {
-            console.log("created design doc");
-            this.service.getNews().then(() => {
-              this.loader.dismiss();
-              this.nav.setRoot("HomePage", {}, {animate: true, direction: 'forward'});
-            });
-          }, err => {
-            console.log(err);
+          this.service.getNews().then(() => {
+            this.loader.dismiss();
+            this.nav.setRoot("HomePage", {}, {animate: true, direction: 'forward'});
           });
 
         }, (err) => {
           this.loader.dismiss();
 
           if(err.status != 0)
-            this.presentAlert("Error", "Please enter valid user information for all the fields", "OK");
+          {
+            let error = JSON.parse(err._body);
+            let body = ""
+
+            for (var key in error.validationErrors) {
+              if (error.validationErrors.hasOwnProperty(key)) {
+                  body += error.validationErrors[key] + "<br>";
+              }
+            }
+
+            this.presentAlert(error.error, body, "OK");
+          }
           else
             this.presentAlert("Connection Error", "Please check your internet conection", "OK");
         });

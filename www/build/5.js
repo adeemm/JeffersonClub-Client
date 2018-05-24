@@ -1,1 +1,93 @@
-webpackJsonp([5],{168:function(l,n,u){"use strict";function e(l){return i._34(0,[(l()(),i._10(0,null,null,63,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,f.b,f.a)),i._9(4374528,null,0,g.a,[m.a,S.a,y.a,i.l,i.J,v.a,b.a,i.C,[2,w.a],[2,P.a]],null,null),(l()(),i._32(1,["\n\n  "])),(l()(),i._10(0,null,1,56,"ion-slides",[["pager",""]],null,null,null,M.b,M.a)),i._9(1228800,null,0,A.a,[m.a,S.a,i.C,[2,w.a],i.l,i.J],{pager:[0,"pager"]},null),(l()(),i._32(0,["\n\n    "])),(l()(),i._10(0,null,0,16,"ion-slide",[],null,null,null,E.b,E.a)),i._9(180224,null,0,L.a,[i.l,i.J,A.a],null,null),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,3,"div",[["class","diag"]],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,0,"img",[["class","welcomeLog"]],null,null,null,null,null)),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,7,"div",[],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),i._32(null,["Easily Log Service Hours"])),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),i._32(null,["Keep an online, hassle-free record of your community service record"])),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n    "])),(l()(),i._32(0,["\n\n    "])),(l()(),i._10(0,null,0,16,"ion-slide",[],null,null,null,E.b,E.a)),i._9(180224,null,0,L.a,[i.l,i.J,A.a],null,null),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,3,"div",[["class","diag"]],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,0,"img",[["class","welcomeEvent"]],null,null,null,null,null)),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,7,"div",[],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),i._32(null,["Keep Track of Upcoming Events"])),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),i._32(null,["An automatically updated calendar always shows the latest events and service opportunities"])),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n    "])),(l()(),i._32(0,["\n\n    "])),(l()(),i._10(0,null,0,16,"ion-slide",[],null,null,null,E.b,E.a)),i._9(180224,null,0,L.a,[i.l,i.J,A.a],null,null),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,3,"div",[["class","diag"]],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,0,"img",[["class","welcomeHorn"]],null,null,null,null,null)),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n      "])),(l()(),i._10(0,null,0,7,"div",[],null,null,null,null,null)),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),i._32(null,["Important Announcements"])),(l()(),i._32(null,["\n        "])),(l()(),i._10(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),i._32(null,["Useful information is shown directly on the home page of the app"])),(l()(),i._32(null,["\n      "])),(l()(),i._32(0,["\n    "])),(l()(),i._32(0,["\n\n  "])),(l()(),i._32(1,["\n\n  "])),(l()(),i._10(0,null,1,1,"button",[["id","skip"]],null,[[null,"click"]],function(l,n,u){var e=!0,i=l.component;return"click"===n&&(e=!1!==i.skip()&&e),e},null,null)),(l()(),i._32(null,["Alright, I got it"])),(l()(),i._32(1,["\n\n"])),(l()(),i._32(null,["\n"]))],function(l,n){l(n,4,0,"")},function(l,n){l(n,0,0,i._23(n,1).statusbarPadding,i._23(n,1)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var i=u(0),t=(u(59),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.skip=function(){this.navCtrl.setRoot("LoginPage",{},{animate:!0,direction:"forward"})},l}()),o=function(){return function(){}}(),a=u(11),_=u(31),r=u(85),s=u(124),c=u(125),d=u(126),p=u(127),h=u(128),f=u(129),g=u(22),m=u(1),S=u(3),y=u(8),v=u(6),b=u(18),w=u(4),P=u(17),M=u(172),A=u(60),E=u(173),L=u(86),N=u(12),O=[],C=i._8({encapsulation:2,styles:O,data:{}}),D=i._7("page-welcome",t,function(l){return i._34(0,[(l()(),i._10(0,null,null,1,"page-welcome",[],null,null,null,e,C)),i._9(49152,null,0,t,[P.a,N.a],null,null)],null,null)},{},{},[]),F=u(46);u.d(n,"WelcomePageModuleNgFactory",function(){return T});var z=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function e(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(e.prototype=u.prototype,new e)}}(),I=function(l){function n(n){return l.call(this,n,[s.a,c.a,d.a,p.a,h.a,D],[])||this}return z(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new a.j(this.parent.get(i.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new _.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new _.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new a.b,this._ɵba_1=new _.o,this._FormsModule_2=new _.g,this._ReactiveFormsModule_3=new _.m,this._IonicModule_4=new r.a,this._IonicPageModule_5=new r.b,this._WelcomePageModule_6=new o,this._LAZY_LOADED_TOKEN_10=t,this._WelcomePageModule_6},n.prototype.getInternal=function(l,n){return l===a.b?this._CommonModule_0:l===_.o?this._ɵba_1:l===_.g?this._FormsModule_2:l===_.m?this._ReactiveFormsModule_3:l===r.a?this._IonicModule_4:l===r.b?this._IonicPageModule_5:l===o?this._WelcomePageModule_6:l===a.k?this._NgLocalization_7:l===_.q?this._ɵi_8:l===_.d?this._FormBuilder_9:l===F.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(i._5),T=new i.z(I,o)},172:function(l,n,u){"use strict";function e(l){return i._34(2,[(l()(),i._10(0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(l()(),i._10(0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),i._22(null,0),(l()(),i._10(0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(l,n){var u=n.component;l(n,0,0,u._rtl?"rtl":null),l(n,3,0,!u.pager)})}u.d(n,"a",function(){return s}),n.b=e;var i=u(0),t=u(60),o=u(1),a=u(3),_=u(4),r=[],s=i._8({encapsulation:2,styles:r,data:{}});i._7("ion-slides",t.a,function(l){return i._34(0,[(l()(),i._10(0,null,null,1,"ion-slides",[],null,null,null,e,s)),i._9(1228800,null,0,t.a,[o.a,a.a,i.C,[2,_.a],i.l,i.J],null,null)],null,null)},{color:"color",mode:"mode",autoplay:"autoplay",control:"control",effect:"effect",direction:"direction",initialSlide:"initialSlide",loop:"loop",pager:"pager",dir:"dir",paginationType:"paginationType",parallax:"parallax",speed:"speed",zoom:"zoom",spaceBetween:"spaceBetween",slidesPerView:"slidesPerView",centeredSlides:"centeredSlides"},{ionSlideWillChange:"ionSlideWillChange",ionSlideDidChange:"ionSlideDidChange",ionSlideDrag:"ionSlideDrag",ionSlideReachStart:"ionSlideReachStart",ionSlideReachEnd:"ionSlideReachEnd",ionSlideAutoplay:"ionSlideAutoplay",ionSlideAutoplayStart:"ionSlideAutoplayStart",ionSlideAutoplayStop:"ionSlideAutoplayStop",ionSlideNextStart:"ionSlideNextStart",ionSlidePrevStart:"ionSlidePrevStart",ionSlideNextEnd:"ionSlideNextEnd",ionSlidePrevEnd:"ionSlidePrevEnd",ionSlideTap:"ionSlideTap",ionSlideDoubleTap:"ionSlideDoubleTap"},["*"])},173:function(l,n,u){"use strict";function e(l){return i._34(2,[(l()(),i._10(0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),i._22(null,0)],null,null)}u.d(n,"a",function(){return _}),n.b=e;var i=u(0),t=u(86),o=u(60),a=[],_=i._8({encapsulation:2,styles:a,data:{}});i._7("ion-slide",t.a,function(l){return i._34(0,[(l()(),i._10(0,null,null,1,"ion-slide",[],null,null,null,e,_)),i._9(180224,null,0,t.a,[i.l,i.J,o.a],null,null)],null,null)},{},{},["*"])}});
+webpackJsonp([5],{
+
+/***/ 265:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EventsPageModule", function() { return EventsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(389);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var EventsPageModule = (function () {
+    function EventsPageModule() {
+    }
+    return EventsPageModule;
+}());
+EventsPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */])
+        ],
+    })
+], EventsPageModule);
+
+//# sourceMappingURL=home.module.js.map
+
+/***/ }),
+
+/***/ 389:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_service__ = __webpack_require__(102);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, menu, service) {
+        this.navCtrl = navCtrl;
+        this.menu = menu;
+        this.service = service;
+        this.announcements = new Array();
+        var length = this.service.news.rows.length;
+        for (var i = 0; i < length; i++) {
+            var element = this.service.news.rows[i];
+            this.announcements.push({ title: element.doc.title, desc: element.doc.desc });
+        }
+    }
+    HomePage.prototype.ionViewDidLoad = function () {
+        this.menu.swipeEnable(true, 'mainSlideMenu');
+        this.menu.enable(true, 'mainSlideMenu');
+        this.service.getServiceHours();
+        this.service.getEvents();
+    };
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/adeem/Desktop/JeffersonClub/client/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Announcements</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <!--<button ion-button menuToggle>Open The Side Menu</button>-->\n\n  <ion-card *ngFor="let thing of announcements">\n    <!-- <div class="thumbnail">\n      <img src="../../assets/img/localimgname.jpg">\n    </div> -->\n\n    <ion-card-content>\n      <ion-card-title>\n        {{ thing.title }}\n      </ion-card-title>\n      <p>\n        {{ thing.desc }}\n      </p>\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/adeem/Desktop/JeffersonClub/client/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_2__providers_service__["a" /* Service */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=5.js.map

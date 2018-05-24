@@ -48,8 +48,13 @@ export class MyApp {
             this.nativeStorage.getItem('key').then(key => {
               this.nativeStorage.getItem('url').then(url => {
 
+                // re-initialize auth headers with saved tokens
                 this.service.headers = new Headers();
                 this.service.headers.append("Authorization", "Bearer " + token + ":" + key);
+
+                this.service.basicAuth = new Headers();
+                this.service.basicAuth.append("Authorization", "Basic " + btoa(token + ":" + key));
+
                 this.service.remote = url;
 
                 this.http.get(this.service.baseUrl + this.service.webPort + "/auth/session", { headers: this.service.headers }).subscribe(res => {

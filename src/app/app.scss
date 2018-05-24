@@ -14,6 +14,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
+body {
+ padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+ padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
 .menu-inner {
   background: rgba(255, 255, 255, .3);
 }
@@ -34,7 +39,6 @@
 #mainSlideMenu {
   h3, .label {
     color: map-get($colors, light);
-    //font-weight: bold;
     font-size: 16px;
   }
 

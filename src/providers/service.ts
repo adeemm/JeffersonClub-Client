@@ -10,6 +10,7 @@ export class Service {
   token: string;
   key: string;
   headers: any;
+  basicAuth: any;
   hours: any;
   events: any;
   news: any;
@@ -30,12 +31,18 @@ export class Service {
   }
 
   init(details){
-    console.log(details);
     this.remote = details.userDBs.student;
     this.token = details.token;
     this.key = details.password;
+
+    // headers for superlogin backend
     this.headers = new Headers();
     this.headers.append("Authorization", "Bearer " + String(this.token) + ":" + String(this.key));
+
+    // basic auth headers for couchdb authentication
+    // base64 encode "user:pass"
+    this.basicAuth = new Headers();
+    this.basicAuth.append("Authorization", "Basic " + btoa(String(this.token) + ":" + String(this.key)));
 
     this.nativeStorage.setItem('token', details.token).then(() => console.log('Stored token'), error => console.error('Error storing token', error));
     this.nativeStorage.setItem('key', details.password).then(() => console.log('Stored key'), error => console.error('Error storing key', error));
@@ -52,7 +59,7 @@ export class Service {
   }
 
   addServiceHours(doc) {
-    this.http.post(this.remote, doc, { headers: this.headers })
+    this.http.post(this.remote, doc, { headers: this.basicAuth })
       .subscribe(res => {
         this.presentAlert("Sucess", "Hours sucessfully logged!", "OK");
         this.getServiceHours();
@@ -63,7 +70,7 @@ export class Service {
 
   getServiceHours()
   {
-    this.http.get(this.remote + "/_design/hours/_view/date")
+    this.http.get(this.remote + "/_design/hours/_view/date", { headers: this.basicAuth })
       .subscribe(res => {
         this.hours = res.json();
       }, (err) => {
@@ -73,7 +80,7 @@ export class Service {
 
   getEvents()
   {
-    this.http.get(this.baseUrl + this.dbPort + "/events/_design/events/_view/start")
+    this.http.get(this.baseUrl + this.dbPort + "/events/_design/events/_view/start", { headers: this.basicAuth })
       .subscribe(res => {
         this.events = res.json();
       }, (err) => {
@@ -84,7 +91,7 @@ export class Service {
   getNews()
   {
     return new Promise(resolve => {
-      this.http.get(this.baseUrl + this.dbPort + "/news/_all_docs?include_docs=true")
+      this.http.get(this.baseUrl + this.dbPort + "/news/_all_docs?include_docs=true", { headers: this.basicAuth })
         .subscribe(res => {
           this.news = res.json();
           resolve();

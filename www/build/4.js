@@ -1,1 +1,173 @@
-webpackJsonp([4],{162:function(l,n,u){"use strict";function t(l){return o._34(0,[(l()(),o._10(0,null,null,20,"ion-header",[],null,null,null,null,null)),o._9(16384,null,0,h.a,[f.a,o.l,o.J,[2,m.a]],null,null),(l()(),o._32(null,["\n  "])),(l()(),o._10(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,p.b,p.a)),o._9(49152,null,0,k.a,[v.a,[2,m.a],[2,y.a],f.a,o.l,o.J],null,null),(l()(),o._32(3,["\n    "])),(l()(),o._10(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;return"click"===n&&(t=!1!==o._23(l,8).toggle()&&t),t},w.b,w.a)),o._9(1097728,[[1,4]],0,C.a,[[8,""],f.a,o.l,o.J],null,null),o._9(1064960,null,0,J.a,[M.a,[2,m.a],[2,C.a],[2,k.a]],{menuToggle:[0,"menuToggle"]},null),o._9(16384,null,1,P.a,[f.a,o.l,o.J,[2,A.a],[2,k.a]],null,null),o._30(603979776,1,{_buttons:1}),(l()(),o._32(0,["\n      "])),(l()(),o._10(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._9(147456,null,0,O.a,[f.a,o.l,o.J],{name:[0,"name"]},null),(l()(),o._32(0,["\n    "])),(l()(),o._32(3,["\n    "])),(l()(),o._10(0,null,3,2,"ion-title",[],null,null,null,B.b,B.a)),o._9(49152,null,0,F.a,[f.a,o.l,o.J,[2,A.a],[2,k.a]],null,null),(l()(),o._32(0,["About"])),(l()(),o._32(3,["\n  "])),(l()(),o._32(null,["\n"])),(l()(),o._32(null,["\n\n"])),(l()(),o._10(0,null,null,17,"ion-content",[["class","about-bg"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,L.b,L.a)),o._9(4374528,null,0,x.a,[f.a,I.a,N.a,o.l,o.J,v.a,j.a,o.C,[2,m.a],[2,y.a]],null,null),(l()(),o._32(1,["\n  "])),(l()(),o._10(0,null,1,13,"div",[["class","profile"]],null,null,null,null,null)),(l()(),o._32(null,["\n    "])),(l()(),o._10(0,null,null,1,"h2",[["style","margin-top: 85px"]],null,null,null,null,null)),(l()(),o._32(null,["Adeem Mawani"])),(l()(),o._32(null,["\n    "])),(l()(),o._10(0,null,null,1,"div",[["class","position"],["style","margin-bottom: 325px"]],null,null,null,null,null)),(l()(),o._32(null,["Developer & Designer"])),(l()(),o._32(null,["\n\n    "])),(l()(),o._10(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),o._32(null,["Anna Gorritti"])),(l()(),o._32(null,["\n    "])),(l()(),o._10(0,null,null,1,"div",[["class","position"]],null,null,null,null,null)),(l()(),o._32(null,["Concept Creator"])),(l()(),o._32(null,["\n  "])),(l()(),o._32(1,["\n"])),(l()(),o._32(null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,o._23(n,4)._hidden,o._23(n,4)._sbPadding),l(n,6,0,o._23(n,8).isHidden),l(n,12,0,o._23(n,13)._hidden),l(n,22,0,o._23(n,23).statusbarPadding,o._23(n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(0),a=(u(59),function(){return function(l,n){this.navCtrl=l,this.navParams=n}}()),e=function(){return function(){}}(),_=u(11),i=u(31),s=u(85),r=u(124),c=u(125),b=u(126),d=u(127),g=u(128),h=u(88),f=u(1),m=u(4),p=u(170),k=u(30),v=u(6),y=u(17),w=u(83),C=u(16),J=u(87),M=u(14),P=u(89),A=u(44),O=u(32),B=u(171),F=u(84),L=u(129),x=u(22),I=u(3),N=u(8),j=u(18),T=u(12),z=[],D=o._8({encapsulation:2,styles:z,data:{}}),E=o._7("page-about",a,function(l){return o._34(0,[(l()(),o._10(0,null,null,1,"page-about",[],null,null,null,t,D)),o._9(49152,null,0,a,[y.a,T.a],null,null)],null,null)},{},{},[]),R=u(46);u.d(n,"AboutPageModuleNgFactory",function(){return Y});var q=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function t(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(t.prototype=u.prototype,new t)}}(),K=function(l){function n(n){return l.call(this,n,[r.a,c.a,b.a,d.a,g.a,E],[])||this}return q(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new _.j(this.parent.get(o.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new i.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new i.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new _.b,this._ɵba_1=new i.o,this._FormsModule_2=new i.g,this._ReactiveFormsModule_3=new i.m,this._IonicModule_4=new s.a,this._IonicPageModule_5=new s.b,this._AboutPageModule_6=new e,this._LAZY_LOADED_TOKEN_10=a,this._AboutPageModule_6},n.prototype.getInternal=function(l,n){return l===_.b?this._CommonModule_0:l===i.o?this._ɵba_1:l===i.g?this._FormsModule_2:l===i.m?this._ReactiveFormsModule_3:l===s.a?this._IonicModule_4:l===s.b?this._IonicPageModule_5:l===e?this._AboutPageModule_6:l===_.k?this._NgLocalization_7:l===i.q?this._ɵi_8:l===i.d?this._FormBuilder_9:l===R.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(o._5),Y=new o.z(K,e)},170:function(l,n,u){"use strict";function t(l){return o._34(0,[(l()(),o._10(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._10(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0,o=l.component;return"click"===n&&(t=!1!==o.backButtonClick(u)&&t),t},_.b,_.a)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._9(1097728,null,0,i.a,[[8,"bar-button"],s.a,o.l,o.J],null,null),(l()(),o._10(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._9(147456,null,0,r.a,[s.a,o.l,o.J],{name:[0,"name"]},null),(l()(),o._10(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._32(null,["",""])),o._22(null,0),o._22(null,1),o._22(null,2),(l()(),o._10(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._22(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,o._23(n,7)._hidden),l(n,10,0,u._backText)})}u.d(n,"a",function(){return h}),n.b=t;var o=u(0),a=u(11),e=u(30),_=u(83),i=u(16),s=u(1),r=u(32),c=u(6),b=u(4),d=u(17),g=[],h=o._8({encapsulation:2,styles:g,data:{}});o._7("ion-navbar",e.a,function(l){return o._34(0,[(l()(),o._10(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,t,h)),o._9(49152,null,0,e.a,[c.a,[2,b.a],[2,d.a],s.a,o.l,o.J],null,null)],null,function(l,n){l(n,0,0,o._23(n,1)._hidden,o._23(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])},171:function(l,n,u){"use strict";function t(l){return o._34(2,[(l()(),o._10(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),o._9(278528,null,0,a.g,[o.v,o.w,o.l,o.J],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._22(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return c}),n.b=t;var o=u(0),a=u(11),e=u(84),_=u(1),i=u(44),s=u(30),r=[],c=o._8({encapsulation:2,styles:r,data:{}});o._7("ion-title",e.a,function(l){return o._34(0,[(l()(),o._10(0,null,null,1,"ion-title",[],null,null,null,t,c)),o._9(49152,null,0,e.a,[_.a,o.l,o.J,[2,i.a],[2,s.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])}});
+webpackJsonp([4],{
+
+/***/ 266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginPageModule", function() { return LoginPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(390);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var LoginPageModule = (function () {
+    function LoginPageModule() {
+    }
+    return LoginPageModule;
+}());
+LoginPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */]),
+        ],
+    })
+], LoginPageModule);
+
+//# sourceMappingURL=login.module.js.map
+
+/***/ }),
+
+/***/ 390:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_service__ = __webpack_require__(102);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var LoginPage = (function () {
+    function LoginPage(nav, http, service, loadingCtrl, alertCtrl) {
+        this.nav = nav;
+        this.http = http;
+        this.service = service;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.viewState = 'signup';
+        this.inputType = 'password';
+        this.hideShowPassword = function () {
+            if (this.inputType == 'password')
+                this.inputType = 'text';
+            else
+                this.inputType = 'password';
+        };
+    }
+    LoginPage.prototype.changeState = function (stateName) {
+        this.viewState = stateName;
+    };
+    LoginPage.prototype.presentAlert = function (header, sub, button) {
+        var alert = this.alertCtrl.create({
+            title: header,
+            subTitle: sub,
+            buttons: [button]
+        });
+        alert.present();
+    };
+    LoginPage.prototype.login = function () {
+        var _this = this;
+        var headers = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        var credentials = {
+            username: this.user,
+            password: this.pass
+        };
+        this.loader = this.loadingCtrl.create({
+            content: "Please wait..."
+        });
+        this.loader.present().then(function () {
+            _this.http.post(_this.service.baseUrl + _this.service.webPort + '/auth/login', JSON.stringify(credentials), { headers: headers })
+                .subscribe(function (res) {
+                _this.service.init(res.json());
+                _this.service.getNews().then(function () {
+                    _this.loader.dismiss();
+                    _this.nav.setRoot("HomePage", {}, { animate: true, direction: 'forward' });
+                });
+            }, function (err) {
+                _this.loader.dismiss();
+                if (err.status != 0)
+                    _this.presentAlert("Error", JSON.parse(err._body).message, "OK");
+                else
+                    _this.presentAlert("Connection Error", "Please check your connection!", "OK");
+            });
+        });
+    };
+    LoginPage.prototype.register = function () {
+        var _this = this;
+        var headers = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        var user = {
+            firstName: this.firstName,
+            lastName: this.lastName,
+            email: this.email,
+            username: this.username,
+            password: this.password,
+            confirmPassword: this.password
+        };
+        this.loader = this.loadingCtrl.create({
+            content: "Please wait..."
+        });
+        this.loader.present().then(function () {
+            _this.http.post(_this.service.baseUrl + _this.service.webPort + '/auth/register', JSON.stringify(user), { headers: headers })
+                .subscribe(function (res) {
+                _this.service.init(res.json());
+                _this.service.getNews().then(function () {
+                    _this.loader.dismiss();
+                    _this.nav.setRoot("HomePage", {}, { animate: true, direction: 'forward' });
+                });
+            }, function (err) {
+                _this.loader.dismiss();
+                if (err.status != 0) {
+                    var error = JSON.parse(err._body);
+                    var body = "";
+                    for (var key in error.validationErrors) {
+                        if (error.validationErrors.hasOwnProperty(key)) {
+                            body += error.validationErrors[key] + "<br>";
+                        }
+                    }
+                    _this.presentAlert(error.error, body, "OK");
+                }
+                else
+                    _this.presentAlert("Connection Error", "Please check your internet conection", "OK");
+            });
+        });
+    };
+    return LoginPage;
+}());
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"/Users/adeem/Desktop/JeffersonClub/client/src/pages/login/login.html"*/'<ion-content class="login">\n\n  <!--top-->\n\n  <div text-center class="top-header" ion-fixed>\n    <ion-grid>\n      <ion-row class="header-menu">\n        <ion-col width-50><button ion-button color="light" clear block (click)="changeState(\'login\')">Login</button></ion-col>\n        <ion-col width-50><button ion-button color="light" clear block (click)="changeState(\'signup\')">Sign up</button></ion-col>\n        <img src="assets/img/active-icon.png" width="15px" id="active-icon" [ngClass]="{\'left\': viewState===\'login\'}">\n      </ion-row>\n    </ion-grid>\n\n\n  </div>\n\n  <div class="padding " ion-fixed>\n    <div class="padding">\n\n      <!--signup-->\n      <ion-list *ngIf="viewState===\'signup\'">\n        <ion-item>\n          <ion-icon name="md-person" item-left></ion-icon>\n          <ion-input [(ngModel)]="firstName" type="text" placeholder="First Name"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="md-person" item-left></ion-icon>\n          <ion-input [(ngModel)]="lastName" type="text" placeholder="Last Name"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="md-person" item-left></ion-icon>\n          <ion-input [(ngModel)]="username" type="text" placeholder="Username"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="md-mail" item-left></ion-icon>\n          <ion-input [(ngModel)]="email" type="email" placeholder="E-mail"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="md-lock" item-left></ion-icon>\n          <ion-icon name="md-eye" item-right (click)="hideShowPassword()" class="eye-icon" [ngClass]="{\'half-opacity\': inputType===\'text\'}"></ion-icon>\n          <ion-input [(ngModel)]="password" type="{{inputType}}" placeholder="Password"></ion-input>\n        </ion-item>\n\n      </ion-list>\n\n      <!--login-->\n      <ion-list *ngIf="viewState===\'login\'">\n        <ion-item>\n          <ion-icon name="md-person" item-left></ion-icon>\n          <ion-input [(ngModel)]="user" type="text" placeholder="Username"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="md-lock" item-left></ion-icon>\n          <ion-icon name="md-eye" item-right (click)="hideShowPassword()" class="eye-icon" [ngClass]="{\'half-opacity\': inputType===\'text\'}"></ion-icon>\n          <ion-input [(ngModel)]="pass" type="{{inputType}}" placeholder="Password"></ion-input>\n        </ion-item>\n\n      </ion-list>\n    </div>\n  </div>\n\n  <!--footer-->\n  <div class="footer-content btn-holder" ion-fixed>\n    <div class="animated fadeIn">\n      <button ion-button round block color="positive" (click)="register()" *ngIf="viewState===\'signup\'">Create Account</button>\n      <button ion-button round block color="positive" (click)="login()" *ngIf="viewState===\'login\'">Login</button>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/adeem/Desktop/JeffersonClub/client/src/pages/login/login.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3__providers_service__["a" /* Service */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=4.js.map
